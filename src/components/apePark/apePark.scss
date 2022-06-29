@@ -1,0 +1,376 @@
+@font-face {
+  font-family: "SofiaPro";
+  src: url(".././../fon-family/SofiaProLight.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "SofiaProB";
+  src: url(".././../fon-family/SofiaPro-Bold.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "ApeHandwriting";
+  src: url(".././../fon-family/ApeHandwriting.woff2") format("opentype");
+}
+
+.apePark {
+  .apeHoodText {
+    margin-top: 100px;
+    h1 {
+      font-family: "SofiaProB";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 31.1093px;
+      line-height: 36px;
+      color: #ffffff;
+    }
+    .firstH2 {
+      font-family: "SofiaPro";
+      font-style: normal;
+      font-weight: 250;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffbd3e;
+    }
+    .secondH2 {
+      font-family: "SofiaProB";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ff6464;
+    }
+    .text {
+      font-family: "SofiaPro";
+      font-style: normal;
+      font-weight: 250;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+  }
+
+  .imgChangeArea {
+    margin-top: 100px;
+    .imgArea {
+      text-align: center;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .textArea {
+    margin-top: 150px;
+    .hood {
+      display: flex;
+      h1 {
+        background: #ca5a5a;
+        border: 1px solid #f09f9f;
+        border-radius: 8px;
+        font-family: "SofiaPro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        padding: 4px 20px;
+      }
+    }
+    .textAreaTwo {
+      margin-top: 30px;
+      p {
+        font-family: "SofiaPro";
+        font-style: normal;
+        font-weight: 250;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .team {
+    margin-top: 100px;
+    .hood {
+      font-family: "SofiaProB";
+      font-weight: 900;
+      font-size: 31.1093px;
+      line-height: 36px;
+      color: #ffffff;
+    }
+  }
+
+  .teamMember {
+    margin-top: 100px;
+    .monkeyTeam {
+      display: flex;
+      justify-content: center;
+      .imgHoodText {
+        width: 262.76px;
+        .img {
+          text-align: center;
+          img {
+            width: 262.76px;
+            height: 241.19px;
+          }
+        }
+        .hood {
+          margin-top: 30px;
+          h1 {
+            font-family: "ApeHandwriting";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #ffffff;
+          }
+        }
+        .position {
+          display: flex;
+          justify-content: center;
+          h2 {
+            background: #ca5a5a;
+            border: 1px solid #f09f9f;
+            border-radius: 8px;
+            font-family: "SofiaProB";
+            font-size: 20px;
+            text-align: center;
+            margin: 0px;
+            color: #ffffff;
+            padding-top: 6px;
+            width: 262.76px;
+          }
+        }
+        .text {
+          margin-top: 30px;
+          p {
+            font-family: "SofiaPro";
+            font-style: normal;
+            font-weight: 250;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            margin: 0px;
+          }
+        }
+      }
+    }
+  }
+
+  .bottomSide {
+    margin-top: 100px;
+    .hood {
+      display: flex;
+      h1 {
+        background: #ca5a5a;
+        border: 1px solid #f09f9f;
+        border-radius: 8px;
+        font-family: "SofiaPro";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #ffffff;
+        margin: 0px;
+        padding: 4px 50px;
+        padding-top: 7px;
+      }
+    }
+    .textAreaTeam {
+      margin-top: 30px;
+      p {
+        font-family: "SofiaPro";
+        font-style: normal;
+        font-weight: 250;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
+
+    .socialArea {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      .firstArea {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        a {
+          text-decoration: unset;
+          color: white;
+          p {
+            margin: 0px;
+            width: 250px;
+            font-family: "ApeHandwriting";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            text-align: center;
+            color: #ffffff;
+          }
+          .twitterText {
+            background: #ca5a5a;
+            border: 1px solid #f09f9f;
+            border-radius: 8px;
+          }
+          .bluePrint {
+            background: #ca5a5a;
+            border: 1px solid #f09f9f;
+            border-radius: 8px;
+          }
+        }
+      }
+      .secondArea {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        a {
+          text-decoration: unset;
+          color: white;
+          p {
+            margin: 0px;
+            width: 250px;
+            font-family: "ApeHandwriting";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            text-align: center;
+            color: #ffffff;
+          }
+          .twitterText {
+            background: #ca5a5a;
+            border: 1px solid #f09f9f;
+            border-radius: 8px;
+          }
+          .bluePrint {
+            background: #ca5a5a;
+            border: 1px solid #f09f9f;
+            border-radius: 8px;
+          }
+        }
+      }
+      .thirtArea {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 12px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .apePark {
+    text-align: center;
+    .apeHoodText {
+      h1 {
+      }
+      .firstH2 {
+      }
+      .secondH2 {
+      }
+      .text {
+      }
+    }
+
+    .imgChangeArea {
+      .imgArea {
+        img {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+      }
+    }
+
+    .textArea {
+      .hood {
+        place-content: center;
+        h1 {
+        }
+      }
+      .textAreaTwo {
+        p {
+        }
+      }
+    }
+
+    .team {
+      .hood {
+      }
+    }
+
+    .teamMember {
+      .monkeyTeam {
+        .imgHoodText {
+          .img {
+            img {
+            }
+          }
+          .hood {
+            h1 {
+            }
+          }
+          .position {
+            h2 {
+            }
+          }
+          .text {
+            p {
+            }
+          }
+        }
+      }
+    }
+
+    .bottomSide {
+      .hood {
+        place-content: center;
+        h1 {
+        }
+      }
+      .textAreaTeam {
+        p {
+        }
+      }
+
+      .socialArea {
+        .firstArea {
+          display: block !important;
+          a {
+            p {
+              width: 100% !important;
+              text-align: center !important;
+            }
+            .twitterText {
+              margin-bottom: 10px;
+            }
+            .bluePrint {
+            }
+          }
+        }
+        .secondArea {
+          display: block !important;
+          a {
+            p {
+              width: 100% !important;
+              text-align: center !important;
+            }
+            .twitterText {
+              margin-bottom: 10px;
+            }
+            .bluePrint {
+            }
+          }
+        }
+        .thirtArea {
+        }
+      }
+    }
+  }
+}

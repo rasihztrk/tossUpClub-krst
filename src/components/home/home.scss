@@ -1,0 +1,473 @@
+@font-face {
+  font-family: "SofiaPro";
+  src: url(".././../fon-family/SofiaProLight.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "AkiraExpanded";
+  src: url(".././../fon-family/AkiraExpanded-SuperBold.woff2")
+    format("opentype");
+}
+
+.homeHeader {
+  margin-top: 150px;
+  .row {
+    .textArea {
+      width: 400px;
+      .firstText {
+        p {
+          font-family: "SofiaPro";
+          font-style: normal;
+          font-weight: 250;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffbd3e;
+          span {
+            font-family: "SofiaPro";
+            font-style: normal;
+            font-weight: 250;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ff6464;
+          }
+        }
+      }
+      .secondText {
+        h1 {
+          font-family: "SofiaPro";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 31.1093px;
+          line-height: 36px;
+          letter-spacing: 0.497749px;
+          color: #ffffff;
+        }
+      }
+      .thirtText {
+        p {
+          font-family: "SofiaPro";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 11px;
+          line-height: 20px;
+          color: #fffef6;
+          span {
+            color: rgba(246, 108, 108, 1);
+          }
+        }
+      }
+      .buttonArea {
+        button {
+          width: 250.71px;
+          height: 33px;
+          background: #ffbd3e;
+          border-radius: 2px;
+          font-family: "AkiraExpanded";
+          font-style: normal;
+          font-weight: 800;
+          font-size: 12px;
+          line-height: 24px;
+          text-align: center;
+          color: #111220;
+          border: 0px;
+          outline: 0px;
+        }
+      }
+    }
+    .monkeyBox {
+      background: #242435;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+      gap: 80px;
+      padding-bottom: 0px;
+      width: 500px;
+      .textArea {
+        position: relative;
+        text-align-last: center;
+        .hood {
+          h1 {
+            font-family: "AkiraExpanded";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #ffbd3e;
+          }
+        }
+        .textInput {
+          input {
+            width: 167px;
+            height: 94px;
+            border: 0.3px solid #808080;
+            border-radius: 18px;
+            background-color: transparent;
+            color: white;
+            padding: 10px;
+          }
+        }
+        .applybtn {
+          button {
+            background: #ffbd3e;
+            border-radius: 2px;
+            font-family: "AkiraExpanded";
+            font-style: normal;
+            font-weight: 800;
+            font-size: 8px;
+            text-align: center;
+            color: #111220;
+            border: 0px;
+            outline: 0px;
+            padding: 4px 30px;
+            margin-top: 20px;
+          }
+        }
+        .imgArea {
+          .line {
+            position: absolute;
+            right: -47px;
+            top: 0px;
+          }
+          .screenS {
+            position: absolute;
+            right: -58px;
+            top: 14px;
+          }
+          .upload {
+            position: absolute;
+            right: -58px;
+            top: 46px;
+          }
+        }
+      }
+    }
+    .bottomText {
+      .textAreaS {
+        text-align: center;
+        margin-top: 100px;
+        h1 {
+          font-family: "SofiaPro";
+          font-style: normal;
+          font-weight: 250;
+          font-size: 20px;
+          line-height: 24px;
+          color: #ffbd3e;
+          span {
+            color: rgba(255, 100, 100, 1);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .homeHeader {
+    .row {
+      .textArea {
+        width: auto;
+        .firstText {
+          p {
+            span {
+            }
+          }
+        }
+        .secondText {
+          h1 {
+          }
+        }
+        .thirtText {
+          p {
+            span {
+            }
+          }
+        }
+        .buttonArea {
+          button {
+          }
+        }
+      }
+      .monkeyBox {
+        width: 100%;
+        gap: 40px;
+        .textArea {
+          .hood {
+            h1 {
+            }
+          }
+          .textInput {
+            input {
+            }
+          }
+          .applybtn {
+            button {
+            }
+          }
+          .imgArea {
+            .line {
+              right: -24px;
+            }
+            .screenS {
+              right: -34px;
+            }
+            .upload {
+              right: -34px;
+            }
+          }
+        }
+
+        .MonkeyText {
+          position: relative;
+          p {
+            color: white;
+            font-family: "SofiaPro";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            text-align: center;
+            color: #ffffff;
+            position: absolute;
+            top: 10%;
+            left: 46%;
+            transform: translateX(-50%);
+            margin: 0px;
+            span {
+              font-family: "AkiraExpanded" !important;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 12px;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .bottomText {
+        .textAreaS {
+          h1 {
+            span {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .homeHeader {
+    margin-top: 70px !important;
+    text-align: center;
+
+    .row {
+      position: unset;
+      transform: none;
+      left: unset;
+      .textArea {
+        margin-right: 0px;
+        margin-top: 20px;
+        .firstText {
+          p {
+            font-size: 16px;
+            margin: 0px;
+            span {
+            }
+          }
+        }
+        .secondText {
+          h1 {
+            font-size: 24px;
+            margin: 0px;
+          }
+        }
+        .thirtText {
+          p {
+            margin: 0px;
+
+            span {
+            }
+          }
+        }
+        .buttonArea {
+          button {
+          }
+        }
+      }
+      .monkeyBox {
+        width: 100%;
+        margin-left: 0px;
+        padding: 20px;
+        .textArea {
+          .hood {
+            h1 {
+            }
+          }
+          .textInput {
+            input {
+            }
+          }
+          .applybtn {
+            button {
+            }
+          }
+          .imgArea {
+            .line {
+            }
+            .screenS {
+            }
+            .upload {
+            }
+          }
+        }
+      }
+      .bottomText {
+        .textAreaS {
+          margin-top: 30px;
+          h1 {
+            span {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .homeHeader {
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    .row {
+      .textArea {
+        .firstText {
+          p {
+            span {
+            }
+          }
+        }
+        .secondText {
+          h1 {
+          }
+        }
+        .thirtText {
+          p {
+            span {
+            }
+          }
+        }
+        .buttonArea {
+          button {
+          }
+        }
+      }
+      .monkeyBox {
+        .textArea {
+          .hood {
+            h1 {
+            }
+          }
+          .textInput {
+            input {
+            }
+          }
+          .applybtn {
+            button {
+            }
+          }
+          .imgArea {
+            .line {
+            }
+            .screenS {
+            }
+            .upload {
+            }
+          }
+        }
+      }
+      .bottomText {
+        .textAreaS {
+          h1 {
+            span {
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .homeHeader {
+    margin-bottom: 50px;
+    .row {
+      .textArea {
+        width: auto;
+        .firstText {
+          p {
+            span {
+            }
+          }
+        }
+        .secondText {
+          h1 {
+          }
+        }
+        .thirtText {
+          p {
+            span {
+            }
+          }
+        }
+        .buttonArea {
+          button {
+          }
+        }
+      }
+      .monkeyBox {
+        display: block;
+        padding-bottom: 0px;
+        .textArea {
+          .hood {
+            h1 {
+            }
+          }
+          .textInput {
+            input {
+            }
+          }
+          .applybtn {
+            margin-bottom: 10px;
+            button {
+            }
+          }
+          .imgArea {
+            .line {
+              right: 0px;
+              top: 100px;
+            }
+            .screenS {
+              right: -11px;
+              top: 110px;
+            }
+            .upload {
+              right: -11px;
+              top: 142px;
+            }
+          }
+        }
+      }
+      .bottomText {
+        .textAreaS {
+          margin-top: 10px;
+          h1 {
+            margin: 0px;
+            font-size: 16px;
+            span {
+            }
+          }
+        }
+      }
+    }
+  }
+}

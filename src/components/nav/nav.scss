@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "ApeHandwriting";
+  src: url(".././../fon-family/ApeHandwriting.woff2") format("opentype");
+}
+
+nav {
+  background-color: transparent !important;
+  border: 0px;
+  .navbar-brand {
+    img {
+      width: 100px;
+      height: auto;
+    }
+  }
+  .navbar-collapse {
+    .navS {
+      width: 100%;
+      justify-content: end;
+      .nav-link {
+        width: 100px;
+        height: 27px;
+        margin: 0px 10px;
+        &:first-child {
+          border: 1px solid #f09f9f;
+          border-radius: 8px;
+          font-family: "ApeHandwriting";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          color: #ffffff;
+          padding: 6px 10px;
+        }
+        &:nth-child(2) {
+          background: rgba(96, 94, 94, 0.26);
+          border: 1px solid #f09f9f;
+          border-radius: 8px;
+          font-family: "ApeHandwriting";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          color: #ffffff;
+          opacity: 0.5;
+          padding: 6px 10px;
+        }
+        &:nth-child(3) {
+          background: #ca5a5a;
+          border: 1px solid #f09f9f;
+          border-radius: 8px;
+          font-family: "ApeHandwriting";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          color: #ffffff;
+          padding: 6px 10px;
+        }
+        &:nth-child(4) {
+          background: #ca5a5a;
+          border: 1px solid #f09f9f;
+          border-radius: 8px;
+          font-family: "ApeHandwriting";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          color: #ffffff;
+          padding: 6px 10px;
+          padding: 6px 0px;
+        }
+        &:nth-child(5) {
+          background: #ca5a5a;
+          border: 1px solid #f09f9f;
+          border-radius: 8px;
+          font-family: "ApeHandwriting";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          color: #ffffff;
+          padding: 6px 10px;
+          padding: 6px 0px;
+        }
+        &:nth-child(6) {
+          background: #262530;
+          border: 1px solid #f09f9f;
+          border-radius: 8px;
+          font-family: "ApeHandwriting";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: center;
+          color: #ffffff;
+          opacity: 0.5;
+          padding: 6px 0px;
+        }
+      }
+      .socialarea {
+        display: flex;
+        .nav-link {
+          background-color: transparent;
+          opacity: 1;
+          border: 0px;
+          padding: 0px;
+          margin: 0px;
+          width: 50px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  nav {
+    .navbar-brand {
+      img {
+      }
+    }
+    .navbar-collapse {
+      .navbar-nav {
+        align-items: center !important;
+        max-height: 700px !important;
+        gap: 20px;
+        .nav-link {
+          &:first-child {
+          }
+          &:nth-child(2) {
+          }
+          &:nth-child(3) {
+          }
+          &:nth-child(4) {
+          }
+          &:nth-child(5) {
+          }
+          &:nth-child(6) {
+          }
+        }
+        .socialarea {
+          .nav-link {
+          }
+        }
+      }
+    }
+  }
+}

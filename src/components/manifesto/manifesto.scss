@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "SofiaPro";
+  src: url(".././../fon-family/SofiaProLight.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "AkiraExpanded";
+  src: url(".././../fon-family/AkiraExpanded-SuperBold.woff2")
+    format("opentype");
+}
+
+.manifesto {
+  .textArea {
+    margin-top: 150px;
+    h1 {
+      font-family: "SofiaPro";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 31.1093px;
+      line-height: 36px;
+      color: #ffffff;
+      margin: 20px 0px;
+    }
+    .firstText {
+      font-family: "SofiaPro";
+      font-style: normal;
+      font-weight: 250;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffbd3e;
+      span {
+        color: #ff6464;
+      }
+    }
+    .secondText {
+      font-family: "SofiaPro";
+      font-style: normal;
+      font-weight: 250;
+      font-size: 20px;
+      line-height: 24px;
+      color: #ffffff;
+      .firstSpan {
+        color: #ffbd3e;
+      }
+      .secondSpan {
+        color: #ff6464;
+      }
+    }
+  }
+
+  .imgArea {
+    img {
+      position: fixed;
+      left: 50%;
+      bottom: 0px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .manifesto {
+    .textArea {
+      h1 {
+      }
+      .firstText {
+        span {
+        }
+      }
+      .secondText {
+        .firstSpan {
+        }
+        .secondSpan {
+        }
+      }
+    }
+
+    .imgArea {
+      img {
+        left: 44%;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .manifesto {
+    .textArea {
+      h1 {
+      }
+      .firstText {
+        span {
+        }
+      }
+      .secondText {
+        .firstSpan {
+        }
+        .secondSpan {
+        }
+      }
+    }
+
+    .imgArea {
+      img {
+        left: 40%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .manifesto {
+    .textArea {
+        margin-top: 50px;
+      h1 {
+      }
+      .firstText {
+        span {
+        }
+      }
+      .secondText {
+        .firstSpan {
+        }
+        .secondSpan {
+        }
+      }
+    }
+
+    .imgArea {
+      img {
+        left: 40%;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .manifesto {
+      .textArea {
+        h1 {
+        }
+        .firstText {
+          span {
+          }
+        }
+        .secondText {
+          .firstSpan {
+          }
+          .secondSpan {
+          }
+        }
+      }
+  
+      .imgArea {
+        img {
+          left: 40%;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,140 @@
+@font-face {
+  font-family: "ApeHandwriting";
+  src: url(".././../fon-family/ApeHandwriting.woff2") format("opentype");
+}
+
+nav {
+  background-color: transparent !important;
+  border: 0px;
+}
+
+nav .navbar-brand img {
+  width: 100px;
+  height: auto;
+}
+
+nav .navbar-collapse .navS {
+  width: 100%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+nav .navbar-collapse .navS .nav-link {
+  width: 100px;
+  height: 27px;
+  margin: 0px 10px;
+}
+
+nav .navbar-collapse .navS .nav-link:first-child {
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  padding: 6px 10px;
+}
+
+nav .navbar-collapse .navS .nav-link:nth-child(2) {
+  background: rgba(96, 94, 94, 0.26);
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
+  padding: 6px 10px;
+}
+
+nav .navbar-collapse .navS .nav-link:nth-child(3) {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  padding: 6px 10px;
+}
+
+nav .navbar-collapse .navS .nav-link:nth-child(4) {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  padding: 6px 10px;
+  padding: 6px 0px;
+}
+
+nav .navbar-collapse .navS .nav-link:nth-child(5) {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  padding: 6px 10px;
+  padding: 6px 0px;
+}
+
+nav .navbar-collapse .navS .nav-link:nth-child(6) {
+  background: #262530;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
+  padding: 6px 0px;
+}
+
+nav .navbar-collapse .navS .socialarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .navbar-collapse .navS .socialarea .nav-link {
+  background-color: transparent;
+  opacity: 1;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .navbar-collapse .navbar-nav {
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    max-height: 700px !important;
+    gap: 20px;
+  }
+}
+/*# sourceMappingURL=nav.css.map */

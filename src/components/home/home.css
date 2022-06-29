@@ -1,0 +1,288 @@
+@font-face {
+  font-family: "SofiaPro";
+  src: url(".././../fon-family/SofiaProLight.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "AkiraExpanded";
+  src: url(".././../fon-family/AkiraExpanded-SuperBold.woff2") format("opentype");
+}
+
+.homeHeader {
+  margin-top: 150px;
+}
+
+.homeHeader .row .textArea {
+  width: 400px;
+}
+
+.homeHeader .row .textArea .firstText p {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffbd3e;
+}
+
+.homeHeader .row .textArea .firstText p span {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ff6464;
+}
+
+.homeHeader .row .textArea .secondText h1 {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 31.1093px;
+  line-height: 36px;
+  letter-spacing: 0.497749px;
+  color: #ffffff;
+}
+
+.homeHeader .row .textArea .thirtText p {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 20px;
+  color: #fffef6;
+}
+
+.homeHeader .row .textArea .thirtText p span {
+  color: #f66c6c;
+}
+
+.homeHeader .row .textArea .buttonArea button {
+  width: 250.71px;
+  height: 33px;
+  background: #ffbd3e;
+  border-radius: 2px;
+  font-family: "AkiraExpanded";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #111220;
+  border: 0px;
+  outline: 0px;
+}
+
+.homeHeader .row .monkeyBox {
+  background: #242435;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+  gap: 80px;
+  padding-bottom: 0px;
+  width: 500px;
+}
+
+.homeHeader .row .monkeyBox .textArea {
+  position: relative;
+  text-align-last: center;
+}
+
+.homeHeader .row .monkeyBox .textArea .hood h1 {
+  font-family: "AkiraExpanded";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffbd3e;
+}
+
+.homeHeader .row .monkeyBox .textArea .textInput input {
+  width: 167px;
+  height: 94px;
+  border: 0.3px solid #808080;
+  border-radius: 18px;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+}
+
+.homeHeader .row .monkeyBox .textArea .applybtn button {
+  background: #ffbd3e;
+  border-radius: 2px;
+  font-family: "AkiraExpanded";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 8px;
+  text-align: center;
+  color: #111220;
+  border: 0px;
+  outline: 0px;
+  padding: 4px 30px;
+  margin-top: 20px;
+}
+
+.homeHeader .row .monkeyBox .textArea .imgArea .line {
+  position: absolute;
+  right: -47px;
+  top: 0px;
+}
+
+.homeHeader .row .monkeyBox .textArea .imgArea .screenS {
+  position: absolute;
+  right: -58px;
+  top: 14px;
+}
+
+.homeHeader .row .monkeyBox .textArea .imgArea .upload {
+  position: absolute;
+  right: -58px;
+  top: 46px;
+}
+
+.homeHeader .row .bottomText .textAreaS {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.homeHeader .row .bottomText .textAreaS h1 {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffbd3e;
+}
+
+.homeHeader .row .bottomText .textAreaS h1 span {
+  color: #ff6464;
+}
+
+@media only screen and (max-width: 1400px) {
+  .homeHeader .row .textArea {
+    width: auto;
+  }
+  .homeHeader .row .monkeyBox {
+    width: 100%;
+    gap: 40px;
+  }
+  .homeHeader .row .monkeyBox .textArea .imgArea .line {
+    right: -24px;
+  }
+  .homeHeader .row .monkeyBox .textArea .imgArea .screenS {
+    right: -34px;
+  }
+  .homeHeader .row .monkeyBox .textArea .imgArea .upload {
+    right: -34px;
+  }
+  .homeHeader .row .monkeyBox .MonkeyText {
+    position: relative;
+  }
+  .homeHeader .row .monkeyBox .MonkeyText p {
+    color: white;
+    font-family: "SofiaPro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin: 0px;
+  }
+  .homeHeader .row .monkeyBox .MonkeyText p span {
+    font-family: "AkiraExpanded" !important;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .homeHeader {
+    margin-top: 70px !important;
+    text-align: center;
+  }
+  .homeHeader .row {
+    position: unset;
+    -webkit-transform: none;
+            transform: none;
+    left: unset;
+  }
+  .homeHeader .row .textArea {
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+  .homeHeader .row .textArea .firstText p {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .homeHeader .row .textArea .secondText h1 {
+    font-size: 24px;
+    margin: 0px;
+  }
+  .homeHeader .row .textArea .thirtText p {
+    margin: 0px;
+  }
+  .homeHeader .row .monkeyBox {
+    width: 100%;
+    margin-left: 0px;
+    padding: 20px;
+  }
+  .homeHeader .row .bottomText .textAreaS {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .homeHeader {
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .homeHeader {
+    margin-bottom: 50px;
+  }
+  .homeHeader .row .textArea {
+    width: auto;
+  }
+  .homeHeader .row .monkeyBox {
+    display: block;
+    padding-bottom: 0px;
+  }
+  .homeHeader .row .monkeyBox .textArea .applybtn {
+    margin-bottom: 10px;
+  }
+  .homeHeader .row .monkeyBox .textArea .imgArea .line {
+    right: 0px;
+    top: 100px;
+  }
+  .homeHeader .row .monkeyBox .textArea .imgArea .screenS {
+    right: -11px;
+    top: 110px;
+  }
+  .homeHeader .row .monkeyBox .textArea .imgArea .upload {
+    right: -11px;
+    top: 142px;
+  }
+  .homeHeader .row .bottomText .textAreaS {
+    margin-top: 10px;
+  }
+  .homeHeader .row .bottomText .textAreaS h1 {
+    margin: 0px;
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=home.css.map */

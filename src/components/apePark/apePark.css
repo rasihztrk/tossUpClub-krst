@@ -1,0 +1,361 @@
+@font-face {
+  font-family: "SofiaPro";
+  src: url(".././../fon-family/SofiaProLight.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "SofiaProB";
+  src: url(".././../fon-family/SofiaPro-Bold.woff2") format("opentype");
+}
+
+@font-face {
+  font-family: "ApeHandwriting";
+  src: url(".././../fon-family/ApeHandwriting.woff2") format("opentype");
+}
+
+.apePark .apeHoodText {
+  margin-top: 100px;
+}
+
+.apePark .apeHoodText h1 {
+  font-family: "SofiaProB";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 31.1093px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.apePark .apeHoodText .firstH2 {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffbd3e;
+}
+
+.apePark .apeHoodText .secondH2 {
+  font-family: "SofiaProB";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ff6464;
+}
+
+.apePark .apeHoodText .text {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.apePark .imgChangeArea {
+  margin-top: 100px;
+}
+
+.apePark .imgChangeArea .imgArea {
+  text-align: center;
+}
+
+.apePark .imgChangeArea .imgArea img {
+  width: 100%;
+  height: 100%;
+}
+
+.apePark .textArea {
+  margin-top: 150px;
+}
+
+.apePark .textArea .hood {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.apePark .textArea .hood h1 {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding: 4px 20px;
+}
+
+.apePark .textArea .textAreaTwo {
+  margin-top: 30px;
+}
+
+.apePark .textArea .textAreaTwo p {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.apePark .team {
+  margin-top: 100px;
+}
+
+.apePark .team .hood {
+  font-family: "SofiaProB";
+  font-weight: 900;
+  font-size: 31.1093px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.apePark .teamMember {
+  margin-top: 100px;
+}
+
+.apePark .teamMember .monkeyTeam {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText {
+  width: 262.76px;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText .img {
+  text-align: center;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText .img img {
+  width: 262.76px;
+  height: 241.19px;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText .hood {
+  margin-top: 30px;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText .hood h1 {
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText .position {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText .position h2 {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "SofiaProB";
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  color: #ffffff;
+  padding-top: 6px;
+  width: 262.76px;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText .text {
+  margin-top: 30px;
+}
+
+.apePark .teamMember .monkeyTeam .imgHoodText .text p {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.apePark .bottomSide {
+  margin-top: 100px;
+}
+
+.apePark .bottomSide .hood {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.apePark .bottomSide .hood h1 {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+  padding: 4px 50px;
+  padding-top: 7px;
+}
+
+.apePark .bottomSide .textAreaTeam {
+  margin-top: 30px;
+}
+
+.apePark .bottomSide .textAreaTeam p {
+  font-family: "SofiaPro";
+  font-style: normal;
+  font-weight: 250;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.apePark .bottomSide .socialArea {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.apePark .bottomSide .socialArea .firstArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.apePark .bottomSide .socialArea .firstArea a {
+  text-decoration: unset;
+  color: white;
+}
+
+.apePark .bottomSide .socialArea .firstArea a p {
+  margin: 0px;
+  width: 250px;
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.apePark .bottomSide .socialArea .firstArea a .twitterText {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+}
+
+.apePark .bottomSide .socialArea .firstArea a .bluePrint {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+}
+
+.apePark .bottomSide .socialArea .secondArea {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.apePark .bottomSide .socialArea .secondArea a {
+  text-decoration: unset;
+  color: white;
+}
+
+.apePark .bottomSide .socialArea .secondArea a p {
+  margin: 0px;
+  width: 250px;
+  font-family: "ApeHandwriting";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.apePark .bottomSide .socialArea .secondArea a .twitterText {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+}
+
+.apePark .bottomSide .socialArea .secondArea a .bluePrint {
+  background: #ca5a5a;
+  border: 1px solid #f09f9f;
+  border-radius: 8px;
+}
+
+.apePark .bottomSide .socialArea .thirtArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+@media only screen and (max-width: 576px) {
+  .apePark {
+    text-align: center;
+  }
+  .apePark .imgChangeArea .imgArea img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .apePark .textArea .hood {
+    place-content: center;
+  }
+  .apePark .bottomSide .hood {
+    place-content: center;
+  }
+  .apePark .bottomSide .socialArea .firstArea {
+    display: block !important;
+  }
+  .apePark .bottomSide .socialArea .firstArea a p {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .apePark .bottomSide .socialArea .firstArea a .twitterText {
+    margin-bottom: 10px;
+  }
+  .apePark .bottomSide .socialArea .secondArea {
+    display: block !important;
+  }
+  .apePark .bottomSide .socialArea .secondArea a p {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .apePark .bottomSide .socialArea .secondArea a .twitterText {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=apePark.css.map */
